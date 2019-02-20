@@ -3,7 +3,6 @@ $(function() {
 	$('#onglets').click(function(event) {
 		var actuel = event.target;
 		if (!/li/i.test(actuel.nodeName) || actuel.className.indexOf('actif') > -1) {
-			alert(actuel.nodeName)
 			return;
 		}
 		$(actuel).addClass('actif').siblings().removeClass('actif');
