@@ -1,0 +1,56 @@
+#onglets{
+	display: none;
+}
+#onglets li{
+	position: relative;
+	float: left;
+	list-style: none;
+	padding: 2px 5px 7px;
+	margin-right: 5px;
+	border: 1px solid black;
+	cursor: pointer;
+	background-color: #9f9c7a;
+	z-index: 1;
+	width : 12%;
+}
+#onglets li:hover{
+	background-color: #b34700;
+	color: #c2c2a3;
+}
+#onglets .actif{
+	border-bottom: none;
+	font-weight: bold;
+	z-index: 10;
+	background-color: #c2c2a3;
+	color: black;
+}
+#onglets .actif:hover{
+	background-color: #c2c2a3;
+	color: black;
+}
+#contenu{
+	clear: both;
+	position: relative;
+	margin: 0 20px;
+	padding: 10px;
+	border: 5px solid black;
+	z-index: 5;
+	top: -6px;
+	background-color: #c2c2a3;
+	overflow: hidden;
+	border-radius: 15px;
+}
+body{
+	width : 80%;
+	margin-left:auto;
+	margin-right: auto;
+	background-color : #3b3a2b;
+	font-family : century gothic, arial;
+}
+h1{
+	text-align: center;
+	font-family : agency fb, century gothic, arial;
+	font-weight: bold;
+	font-size : 38px;
+	color: #c2c2a3;
+}
