@@ -45,6 +45,7 @@
 	border-radius: 15px;
 	height: 400px;
 	overflow: auto;
+	font-size: 14px;
 }
 body{
 	width : 80%;
@@ -70,16 +71,29 @@ p{
 	font-family : arial;
 	font-size : 12px;
 }
+.image_centree{
+	max-height: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+.legend{
+	font-size : 10px;
+	font-style: italic;
+	max-width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+}
 ::-webkit-scrollbar {
-  width: 20px;
+  width: 14px;
 }
 ::-webkit-scrollbar-track {
   box-shadow: inset 0 0 5px grey; 
-  border-radius: 10px;
+  border-radius: 7px;
 }
 ::-webkit-scrollbar-thumb {
   background: #0f0f0a; 
-  border-radius: 10px;
+  border-radius: 7px;
 }
 ::-webkit-scrollbar-thumb:hover {
   background: #000000; 
