@@ -72,7 +72,7 @@ p{
 	font-size : 12px;
 }
 .image_centree{
-	max-height: 300px;
+	max-height: 250px;
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
@@ -83,6 +83,7 @@ p{
 	max-width: 500px;
 	margin-left: auto;
 	margin-right: auto;
+	text-align: center;
 }
 ::-webkit-scrollbar {
   width: 14px;
@@ -97,3 +98,11 @@ p{
 }
 ::-webkit-scrollbar-thumb:hover {
   background: #000000; 
+}
+iframe{
+	margin-left: auto;
+	margin-right: auto;
+	width: 444px;
+	height: 250px;
+	display: block;
+}

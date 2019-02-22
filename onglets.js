@@ -17,3 +17,12 @@ $(function() {
 	}
 	setDisplay();
 });
+$(function(){
+	$("#presentation").load("presentation.html"); 
+});
+$(function(){
+	$("#arbitrage").load("arbitrage.html"); 
+});
+$(function(){
+	$("#diffusion").load("retransmission.html"); 
+});
