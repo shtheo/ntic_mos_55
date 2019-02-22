@@ -29,3 +29,6 @@ $(function(){
 $(function(){
 	$("#performance").load("performance.html"); 
 });
+$(function(){
+	$("#blessure").load("blessure.html"); 
+});
