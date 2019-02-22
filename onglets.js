@@ -26,3 +26,6 @@ $(function(){
 $(function(){
 	$("#diffusion").load("retransmission.html"); 
 });
+$(function(){
+	$("#performance").load("performance.html"); 
+});
