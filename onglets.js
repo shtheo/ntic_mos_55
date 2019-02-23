@@ -32,3 +32,6 @@ $(function(){
 $(function(){
 	$("#blessure").load("blessure.html"); 
 });
+$(function(){
+	$("#tactique").load("tactique.html"); 
+});
